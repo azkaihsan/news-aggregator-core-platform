@@ -1,0 +1,452 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ingre",
+				"ingredientnamesarray"
+			],
+			[
+				"pro",
+				"productionsummaryarray"
+			],
+			[
+				"produ",
+				"production"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"total_i",
+				"total_ingredient_usage"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"requ",
+				"requirementarray"
+			],
+			[
+				"total",
+				"totalproductionsurplus"
+			],
+			[
+				"totalpro",
+				"totalproduction"
+			],
+			[
+				"produc",
+				"productcogsmin"
+			],
+			[
+				"uom",
+				"uomlist"
+			],
+			[
+				"totalproduction",
+				"totalproductionsurplus"
+			],
+			[
+				"tota",
+				"total_production_surplus"
+			],
+			[
+				"Product",
+				"ProductInList"
+			],
+			[
+				"in",
+				"ingredient"
+			],
+			[
+				"end",
+				"end_date"
+			],
+			[
+				"beg",
+				"begin_date"
+			],
+			[
+				"month",
+				"monthcollection"
+			],
+			[
+				"be",
+				"begin_date"
+			],
+			[
+				"date",
+				"datecollection"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"crea",
+				"created_at"
+			],
+			[
+				"cre",
+				"created_at"
+			],
+			[
+				"ord",
+				"orderBy"
+			],
+			[
+				"qu",
+				"quantity_warehouse"
+			],
+			[
+				"count",
+				"country_id"
+			],
+			[
+				"qua",
+				"quantity_transit"
+			],
+			[
+				"new",
+				"newingredient"
+			],
+			[
+				"Ingred",
+				"IngredientPrice"
+			],
+			[
+				"ingredient",
+				"ingredient_brand_id"
+			],
+			[
+				"ingredie",
+				"ingredient_brand_id"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"t",
+				"th\tTag"
+			],
+			[
+				"th",
+				"thead\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/azkaihsannurrahman/news-aggregator-core-platform"
+	],
+	"file_history":
+	[
+		"/Users/azkaihsannurrahman/Downloads/Inventory-Platform.postman_collection.json",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/IngredientController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/IngredientPrintController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/laporan_produksi_harian.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductionPrintReportController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/FormulaController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/daftar_harga_produk.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/daftar_formula_produk.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductInController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductOutController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/ProductIn.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/daftar_harga_bahan_baku.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/ProductOut.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/barangjadi_produk_keluar.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/barangjadi_produk_masuk.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/SuppliesOutController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/IngredientTransitController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/formulasi_bahan_baku.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/SuppliesTransit.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/produksi_bahan_baku.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/IngredientOutController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/IngredientInController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/IngredientOut.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/database/migrations/2020_10_06_090901_create_ingredient_transits_table.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/SuppliesTransitController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/produksi_material_supplies.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/formulasi_material_supplies.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/gudang_material_supplies.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/rencana_produksi.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/IngredientTransit.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/SuppliesOut.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductionPlanPrintController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/bootstrap/app.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/resources/views/prints/gudang_bahan_baku.blade.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductionPlanController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/SuppliesInController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/SuppliesIn.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/IngredientIn.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/ProductPrice.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ReportController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ManagementDashboardController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/ProductionIntervalReportController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/database/seeds/DatabaseSeeder.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/.env",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/User.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Http/Controllers/AuthController.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/database/seeds/RoleSeeder.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Mail/PasswordResetRequest.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Providers/AuthServiceProvider.php",
+		"/Users/azkaihsannurrahman/.bitnami/stackman/machines/xampp/volumes/root/htdocs/inventory-core-platform/app/Mail/PasswordResetNotification.php",
+		"/C/xampp/htdocs/inventory-core-platform/.env",
+		"/C/xampp/htdocs/inventory-core-platform/resources/views/emails/password_reset_request.blade.php",
+		"/C/xampp/htdocs/inventory-core-platform/resources/views/emails/password_reset_notification.blade.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Role.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/FormulaGroup.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductBatchType.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductCategory.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/SuppliesStockTransitTrack.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/SuppliesStockTrack.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientStockTransitTrack.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientStockTrack.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductStockTrack.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductBrand.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductPrice.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/PasswordReset.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Country.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Supplier.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/UoM.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientBrand.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/SuppliesType.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Shift.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductOut.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductRetur.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductIn.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Product.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/SuppliesTransit.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/SuppliesOut.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/SuppliesIn.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductBatchCode.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Supplies.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientTransit.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientOut.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientIn.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Ingredient.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductReblandRepack.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/User.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductionPlan.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/Session.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/ProductionPlanList.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_070831_create_ingredients_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_073513_create_ingredient_prices_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/app/IngredientPrice.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_09_25_132010_create_sessions_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_094651_user_relation_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_09_25_131405_create_users_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_050238_create_shifts_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_050014_create_product_batch_types_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045903_create_formula_groups_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045836_create_product_categories_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045806_create_product_brands_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045622_create_supplies_types_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045543_create_suppliers_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045518_create_countries_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_045446_create_ingredient_brands_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_044951_create_uo_m_s_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_071731_create_products_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_090901_create_ingredient_transits_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091138_create_ingredient_outs_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091823_create_supplies_transits_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_092103_create_supplies_outs_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091542_create_supplies_ins_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_085454_create_ingredient_ins_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_084446_create_supplies_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_073949_create_formulas_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_073721_create_product_prices_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091051_create_ingredient_stock_transit_tracks_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_092038_create_supplies_stock_transit_tracks_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_094038_create_product_rebland_repacks_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_093719_create_product_returs_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_093203_create_product_batch_codes_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_093047_create_product_stock_tracks_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091731_create_supplies_stock_tracks_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_090514_create_ingredient_stock_tracks_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091911_create_supplies_transit_lists_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_090938_create_ingredient_transit_lists_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_091304_create_ingredient_out_lists_table.php",
+		"/C/xampp/htdocs/inventory-core-platform/database/migrations/2020_10_06_092125_create_supplies_out_lists_table.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 70.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "news_aggregator.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 349.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
