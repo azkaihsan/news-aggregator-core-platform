@@ -18,6 +18,6 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'news'], function () use ($router) {
-	$router->post('/source',			'FetchDataController@fetchNewsSourceFromNewsAPI');
+	$router->post('/category',			'FetchDataController@insertNewsCategory');
 	$router->get('/',					'FetchDataController@fetchTopHeadlineFromNewsAPI');
 });

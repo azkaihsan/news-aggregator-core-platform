@@ -19,7 +19,7 @@ class FetchDataController extends Controller
 		$client = new GuzzleClient([
 		    'headers' => $headers
 		]);		
-		$request = $client->get('https://newsapi.org/v2/top-headlines?country=us');
+		$request = $client->get('https://newsapi.org/v2/top-headlines?country=us&category=general');
 		$response = $request->getBody()->getContents();
 		$data = json_decode($response, true);
         return response()->json([
@@ -57,5 +57,19 @@ class FetchDataController extends Controller
             'data'      => $data,
             'status'    => 'success'
         ]);
+    }
+    public function insertNewsCategory(Request $req)
+    {
+    	$categorylist = array('business', 'entertainment', 'general', 'health', 'sports', 'science', 'technology');
+    	foreach ($categorylist as $key) {
+    		$newscategory = new NewsCategory;
+    		$newscategory->name = $key;
+    		$newscategory->save();
+    	}
+        return response()->json([
+            'message'   => 'Insert new category success',
+            'data'      => $categorylist,
+            'status'    => 'success'
+        ]);    	
     }    
 }
