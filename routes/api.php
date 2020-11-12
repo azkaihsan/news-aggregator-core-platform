@@ -16,3 +16,8 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->group(['prefix' => 'news'], function () use ($router) {
+	$router->post('/source',			'FetchDataController@fetchNewsSourceFromNewsAPI');
+	$router->get('/',					'FetchDataController@fetchTopHeadlineFromNewsAPI');
+});

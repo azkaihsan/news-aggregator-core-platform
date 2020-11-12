@@ -16,7 +16,12 @@ class CreateNewsSourcesTable extends Migration
         Schema::create('news_sources', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug');
             $table->text('description')->nullable();
+            $table->string('url')->nullable();
+            $table->string('category')->nullable();
+            $table->string('language')->nullable();
+            $table->string('country')->nullable();
             $table->timestamps();
         });
     }
