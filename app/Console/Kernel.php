@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        'App\Console\Commands\NewsCron',
     ];
 
     /**
@@ -24,6 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        //
+        $schedule->command('etl:news')->everyFiveMinutes();
+        //$schedule->command('etl:news')->hourly();
+        //$schedule->command('etl:news')->daily();
     }
 }
