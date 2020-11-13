@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use DB;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class CountrySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-    	$this->call('CountrySeeder');
-        // $this->call('UsersTableSeeder');
+		$path = 'countries.sql';
+        $sql = file_get_contents($path);
+        DB::unprepared($sql);
     }
 }

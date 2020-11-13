@@ -21,6 +21,9 @@ class NewsRelation extends Migration
             $table->foreign('category_id')
                 ->references('id')->on('news_categories')
                 ->onDelete('cascade');
+            $table->foreign('country_id')
+                ->references('id')->on('countries')
+                ->onDelete('cascade');    
         });    
     }
 

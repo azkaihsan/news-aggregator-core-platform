@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateNewsSourcesTable extends Migration
+class CreateCountriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,14 @@ class CreateNewsSourcesTable extends Migration
      */
     public function up()
     {
-        Schema::create('news_sources', function (Blueprint $table) {
+        Schema::create('countries', function (Blueprint $table) {
             $table->id();
+            $table->char('code',2);
             $table->string('name');
-            $table->string('slug')->nullable();
-            $table->text('description')->nullable();
-            $table->string('url')->nullable();
-            $table->string('category')->nullable();
-            $table->string('language')->nullable();
-            $table->string('country')->nullable();
+            $table->string('full_name');
+            $table->char('iso3',3);
+            $table->char('number',3);
+            $table->char('continent_code',2);            
             $table->timestamps();
         });
     }
@@ -33,6 +32,6 @@ class CreateNewsSourcesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('news_sources');
+        Schema::dropIfExists('countries');
     }
 }
