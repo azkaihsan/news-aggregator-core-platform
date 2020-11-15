@@ -43,6 +43,9 @@ $router->group(['prefix' => 'source'], function () use ($router) {
 //News
 $router->group(['prefix' => 'news'], function () use ($router) {
 	$router->get('/search',				'NewsDashboardController@search');
+	$router->get('/search-title',		'NewsDashboardController@searchTitleOnly');
+	$router->get('/published',			'NewsFilterController@getByPublishedDate');
+	$router->get('/filter',				'NewsFilterController@newsFilter');
 	$router->get('/',					'NewsDashboardController@index');
 	$router->get('{id}', 				'NewsDashboardController@show');
 	$router->get('{id}/category', 		'NewsDashboardController@getByCategory');
