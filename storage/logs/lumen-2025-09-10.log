@@ -1,0 +1,651 @@
+[2025-09-10 00:00:23] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 00:01:24] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 00:02:24] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 00:03:25] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 00:04:26] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 00:05:27] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 00:06:16] local.ERROR: Error fetching Energy: simplexml_load_file(https://www.presstv.ir/rss/rss-10103.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 00:06:28] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 00:07:29] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 00:08:30] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 00:09:31] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 00:10:32] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 00:11:33] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 00:12:33] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 00:13:34] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 00:14:22] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 00:14:35] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 00:15:23] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 00:15:36] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 00:16:24] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 00:17:25] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 00:18:26] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 00:19:27] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 00:20:28] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 00:21:29] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 00:22:29] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 00:22:29] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 00:23:30] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 00:24:31] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 00:25:32] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 00:26:33] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 00:27:34] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 00:28:35] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 00:29:36] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 00:30:37] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 00:31:38] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 00:32:38] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 00:33:39] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 00:42:55] local.ERROR: Error fetching Americas: simplexml_load_file(https://www.presstv.ir/rss/rss-107.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 00:52:30] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 00:53:31] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 00:54:32] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 00:55:33] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 00:56:34] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 00:57:35] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 00:58:36] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 00:59:37] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 01:00:38] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 01:01:39] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 01:02:24] local.ERROR: Error fetching US: simplexml_load_file(https://www.presstv.ir/rss/rss-103.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 01:02:40] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 01:03:40] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 01:04:41] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 01:05:28] local.ERROR: Error fetching Definitive Revenge: simplexml_load_file(https://www.presstv.ir/rss/rss-10115.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 01:05:42] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 01:06:43] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 01:07:44] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 01:08:45] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 01:09:46] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 01:10:47] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 01:11:48] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 01:12:33] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 01:13:34] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 01:14:35] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 01:15:36] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 01:16:38] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 01:17:39] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 01:18:37] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 01:18:39] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 01:19:40] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 01:20:41] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 01:21:42] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 01:22:44] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 01:23:45] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 01:24:46] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 01:25:47] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 01:26:48] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 01:44:20] local.ERROR: Error fetching Economy: simplexml_load_file(https://www.presstv.ir/rss/rss-10102.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 01:52:45] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 01:53:46] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 01:54:47] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 01:55:48] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 01:56:49] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 01:57:49] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 01:58:50] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 01:59:51] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 02:00:52] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 02:01:53] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 02:02:54] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 02:03:55] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 02:04:56] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 02:05:57] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 02:06:58] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 02:07:59] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 02:09:00] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 02:10:01] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 02:11:01] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 02:12:02] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 02:13:42] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 02:14:43] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 02:15:44] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 02:16:45] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 02:17:46] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 02:18:47] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 02:19:02] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 02:19:48] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 02:20:49] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 02:21:50] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 02:22:51] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 02:23:51] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 02:24:52] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 02:25:53] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 02:26:54] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 02:27:55] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 02:28:56] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 02:29:57] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 02:30:58] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 02:31:59] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 02:33:00] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 02:53:01] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 02:54:02] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 02:55:04] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 02:56:05] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 02:57:06] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 02:58:07] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 02:59:08] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 03:00:09] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 03:01:11] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 03:02:12] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 03:03:13] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 03:04:14] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 03:05:15] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 03:06:15] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 03:07:16] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 03:08:17] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 03:09:18] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 03:10:19] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 03:11:20] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 03:12:21] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 03:13:28] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 03:14:29] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 03:15:32] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 03:16:35] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 03:17:37] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 03:18:39] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 03:19:24] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 03:19:41] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 03:20:44] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 03:21:49] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 03:22:53] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 03:23:57] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 03:25:02] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 03:26:10] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 03:27:13] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 03:28:15] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 03:29:17] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 03:30:20] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 03:31:22] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 03:32:24] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 03:33:27] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 03:42:27] local.ERROR: Error fetching UK: simplexml_load_file(https://www.presstv.ir/rss/rss-108.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 03:52:01] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 03:53:03] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 03:54:07] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 03:55:09] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 03:56:12] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 03:57:14] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 03:58:18] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 03:59:22] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 04:00:22] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 04:01:23] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 04:02:24] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 04:03:25] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 04:03:26] local.ERROR: Error fetching Conversations: simplexml_load_file(https://www.presstv.ir/rss/rss-125.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 04:04:03] local.ERROR: Error fetching Energy: simplexml_load_file(https://www.presstv.ir/rss/rss-10103.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 04:04:26] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 04:05:27] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 04:06:28] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 04:07:29] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 04:08:30] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 04:09:31] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 04:10:33] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 04:11:34] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 04:12:15] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 04:13:16] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 04:14:17] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 04:15:17] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 04:16:18] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 04:17:19] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 04:18:20] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 04:19:11] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 04:19:21] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 04:20:23] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 04:21:24] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 04:22:26] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 04:23:28] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 04:24:30] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 04:25:33] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 04:26:35] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 04:54:49] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 04:55:50] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 04:56:51] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 04:57:52] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 04:58:53] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 04:59:54] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 05:00:55] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 05:01:56] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 05:02:56] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 05:03:57] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 05:04:58] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 05:05:59] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 05:07:00] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 05:08:01] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 05:09:02] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 05:09:14] local.ERROR: Error fetching Eye on Islam: simplexml_load_file(https://www.presstv.ir/rss/rss-150116.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 05:10:03] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 05:11:04] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 05:12:04] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 05:13:05] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 05:13:29] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 05:14:06] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 05:14:30] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 05:15:30] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 05:16:31] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 05:17:32] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 05:18:33] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 05:19:34] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 05:20:35] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 05:21:36] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 05:21:53] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 05:22:37] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 05:23:38] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 05:24:39] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 05:25:40] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 05:26:41] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 05:27:42] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 05:28:43] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 05:29:44] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 05:30:44] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 05:31:45] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 05:32:46] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 05:49:40] local.ERROR: Error fetching Exposé: simplexml_load_file(https://www.presstv.ir/rss/rss-150131.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 05:50:40] local.ERROR: Error fetching From Beirut: simplexml_load_file(https://www.presstv.ir/rss/rss-150140.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 05:50:53] local.ERROR: Error fetching Women of Resistance: simplexml_load_file(https://www.presstv.ir/rss/rss-150142.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 05:52:18] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 05:53:19] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 05:54:20] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 05:55:21] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 05:56:22] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 05:57:23] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 05:58:23] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 05:59:24] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 06:00:25] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 06:01:26] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 06:02:27] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 06:03:07] local.ERROR: Error fetching Europe: simplexml_load_file(https://www.presstv.ir/rss/rss-106.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:03:28] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 06:03:34] local.ERROR: Error fetching Society: simplexml_load_file(https://www.presstv.ir/rss/rss-12001.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:04:29] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 06:05:30] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 06:06:31] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 06:07:31] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 06:08:32] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 06:09:33] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 06:09:41] local.ERROR: Error fetching Black and White: simplexml_load_file(https://www.presstv.ir/rss/rss-15046.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:09:55] local.ERROR: Error fetching Israel Watch: simplexml_load_file(https://www.presstv.ir/rss/rss-150124.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:10:28] local.ERROR: Error fetching Explainer: simplexml_load_file(https://www.presstv.ir/rss/rss-150129.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:10:34] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 06:11:35] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 06:13:50] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 06:14:50] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 06:15:51] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 06:16:52] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 06:17:53] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 06:18:54] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 06:19:55] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 06:19:57] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 06:20:56] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 06:21:57] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 06:22:57] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 06:23:58] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 06:24:59] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 06:26:00] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 06:27:01] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 06:28:02] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 06:29:03] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 06:30:04] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 06:31:05] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 06:32:05] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 06:33:06] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 06:43:30] local.ERROR: Error fetching Sports: simplexml_load_file(https://www.presstv.ir/rss/rss-10107.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:43:56] local.ERROR: Error fetching Politics: simplexml_load_file(https://www.presstv.ir/rss/rss-10101.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:47:49] local.ERROR: Error fetching Spotlight: simplexml_load_file(https://www.presstv.ir/rss/rss-15057.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:48:56] local.ERROR: Error fetching Exposé: simplexml_load_file(https://www.presstv.ir/rss/rss-150131.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:49:36] local.ERROR: Error fetching Songs of Resistance: simplexml_load_file(https://www.presstv.ir/rss/rss-150139.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 06:51:55] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 06:52:56] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 06:53:57] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 06:54:57] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 06:55:58] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 06:56:59] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 06:58:00] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 06:59:01] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 07:00:02] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 07:01:03] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 07:02:04] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 07:03:05] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 07:04:05] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 07:05:06] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 07:06:07] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 07:07:01] local.ERROR: Error fetching Africa Today: simplexml_load_file(https://www.presstv.ir/rss/rss-15034.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 07:07:02] local.ERROR: Error fetching Economic Divide: simplexml_load_file(https://www.presstv.ir/rss/rss-15067.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 07:07:08] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 07:07:53] local.ERROR: Error fetching Iran Tech: simplexml_load_file(https://www.presstv.ir/rss/rss-150105.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 07:07:54] local.ERROR: Error fetching Iran Today: simplexml_load_file(https://www.presstv.ir/rss/rss-15006.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 07:08:09] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 07:09:10] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 07:10:11] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 07:11:12] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 07:14:19] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 07:15:20] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 07:16:21] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 07:17:21] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 07:18:22] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 07:19:23] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 07:19:55] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 07:20:24] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 07:21:25] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 07:22:26] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 07:23:27] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 07:24:28] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 07:25:29] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 07:26:29] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 07:27:30] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 07:28:31] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 07:29:32] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 07:30:33] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 07:31:34] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 07:32:35] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 07:33:36] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 07:48:21] local.ERROR: Error fetching Palestine Declassified: simplexml_load_file(https://www.presstv.ir/rss/rss-150108.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 07:53:13] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 07:54:21] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 07:55:21] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 07:56:22] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 07:57:23] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 07:58:24] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 07:59:25] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 08:00:26] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 08:01:27] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 08:02:28] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 08:02:36] local.ERROR: Error fetching West Asia: simplexml_load_file(https://www.presstv.ir/rss/rss-102.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 08:03:29] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 08:04:29] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 08:05:30] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 08:06:31] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 08:07:32] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 08:08:33] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 08:09:34] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 08:10:35] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 08:11:36] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 08:12:37] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 08:19:39] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 08:20:40] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 08:21:41] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 08:22:41] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 08:23:42] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 08:24:43] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 08:25:44] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 08:25:56] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 08:26:45] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 08:27:46] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 08:28:47] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 08:29:48] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 08:30:49] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 08:31:49] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 08:32:50] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 08:33:51] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 08:34:52] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 08:35:53] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 08:36:54] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 08:37:55] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 08:38:56] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 08:43:20] local.ERROR: Error fetching UK: simplexml_load_file(https://www.presstv.ir/rss/rss-108.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 08:43:53] local.ERROR: Error fetching Arts: simplexml_load_file(https://www.presstv.ir/rss/rss-12002.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 08:46:29] local.ERROR: Error fetching Definitive Revenge: simplexml_load_file(https://www.presstv.ir/rss/rss-10115.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 08:47:53] local.ERROR: Error fetching Interview: simplexml_load_file(https://www.presstv.ir/rss/rss-15031.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 08:48:34] local.ERROR: Error fetching Iran Tech: simplexml_load_file(https://www.presstv.ir/rss/rss-150105.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 08:55:10] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 08:56:11] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 08:57:12] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 08:58:13] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 08:59:14] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 09:00:15] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 09:01:16] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 09:02:17] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 09:03:17] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 09:03:47] local.ERROR: Error fetching UK: simplexml_load_file(https://www.presstv.ir/rss/rss-108.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 09:03:48] local.ERROR: Error fetching Americas: simplexml_load_file(https://www.presstv.ir/rss/rss-107.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 09:04:18] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 09:05:19] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 09:06:20] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 09:07:21] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 09:08:22] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 09:09:23] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 09:10:24] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 09:11:25] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 09:12:26] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 09:13:26] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 09:13:40] local.ERROR: Error fetching Al-Aqsa Flood: simplexml_load_file(https://www.presstv.ir/rss/rss-150138.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 09:14:28] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 09:16:53] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 09:17:54] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 09:18:55] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 09:19:56] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 09:20:57] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 09:21:57] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 09:22:58] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 09:24:00] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 09:24:19] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 09:25:01] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 09:26:02] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 09:27:02] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 09:28:03] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 09:29:04] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 09:30:05] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 09:31:06] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 09:32:07] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 09:33:08] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 09:34:09] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 09:35:10] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 09:36:11] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 09:47:02] local.ERROR: Error fetching 10 Minutes: simplexml_load_file(https://www.presstv.ir/rss/rss-150111.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 09:47:27] local.ERROR: Error fetching Economic Divide: simplexml_load_file(https://www.presstv.ir/rss/rss-15067.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 09:54:30] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 09:55:31] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 09:56:32] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 09:57:33] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 09:58:34] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 09:59:35] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 10:00:36] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 10:01:37] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 10:02:26] local.ERROR: Error fetching Asia-Pacific: simplexml_load_file(https://www.presstv.ir/rss/rss-104.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 10:02:38] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 10:03:39] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 10:04:40] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 10:05:40] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 10:06:41] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 10:06:53] local.ERROR: Error fetching People's President: simplexml_load_file(https://www.presstv.ir/rss/rss-10116.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 10:07:42] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 10:08:43] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 10:09:44] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 10:10:45] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 10:11:46] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 10:12:47] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 10:13:48] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 10:15:08] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 10:16:09] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 10:17:10] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 10:18:11] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 10:19:12] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 10:20:13] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 10:21:14] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 10:21:57] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 10:22:14] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 10:23:15] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 10:24:16] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 10:25:17] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 10:26:18] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 10:27:19] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 10:28:20] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 10:29:21] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 10:30:22] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 10:31:23] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 10:32:24] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 10:33:25] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 10:34:26] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 10:44:46] local.ERROR: Error fetching Economy: simplexml_load_file(https://www.presstv.ir/rss/rss-10102.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 10:52:03] local.ERROR: Error fetching Women of Resistance: simplexml_load_file(https://www.presstv.ir/rss/rss-150142.xml): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+  
+[2025-09-10 10:53:31] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 10:54:31] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 10:55:32] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 10:56:33] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 10:57:34] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 10:58:35] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 10:59:36] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 11:00:37] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 11:01:38] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 11:02:39] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 11:03:39] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 11:04:40] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 11:05:41] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 11:06:42] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 11:07:43] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 11:08:44] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 11:09:45] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 11:10:46] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 11:11:47] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 11:12:47] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 11:17:17] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 11:18:18] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 11:19:19] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 11:20:20] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 11:21:21] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 11:22:18] local.ERROR: Error fetching or parsing TV BRICS News: Client error: `GET https://tvbrics.com/en/turbo.xml` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cont (truncated...)
+  
+[2025-09-10 11:22:22] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 11:23:24] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 11:24:24] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 11:25:25] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 11:26:26] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 11:27:27] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 11:28:28] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 11:29:29] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 11:30:30] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 11:31:31] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 11:32:32] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 11:33:32] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
+[2025-09-10 11:34:33] local.ERROR: Error fetching Reviews: simplexml_load_file(https://english.khamenei.ir/rss?tp=21): Failed to open stream: Connection timed out  
+[2025-09-10 11:35:34] local.ERROR: Error fetching Speeches: simplexml_load_file(https://english.khamenei.ir/rss?tp=2): Failed to open stream: Connection timed out  
+[2025-09-10 11:36:35] local.ERROR: Error fetching Videos: simplexml_load_file(https://english.khamenei.ir/rss?tp=10): Failed to open stream: Connection timed out  
+[2025-09-10 11:54:40] local.ERROR: Error fetching Fatwas and Legal Questions: simplexml_load_file(https://english.khamenei.ir/rss?tp=4): Failed to open stream: Connection timed out  
+[2025-09-10 11:55:42] local.ERROR: Error fetching Analysis: simplexml_load_file(https://english.khamenei.ir/rss?tp=26): Failed to open stream: Connection timed out  
+[2025-09-10 11:56:43] local.ERROR: Error fetching Around the World: simplexml_load_file(https://english.khamenei.ir/rss?tp=19): Failed to open stream: Connection timed out  
+[2025-09-10 11:57:43] local.ERROR: Error fetching Artworks: simplexml_load_file(https://english.khamenei.ir/rss?tp=15): Failed to open stream: Connection timed out  
+[2025-09-10 11:58:44] local.ERROR: Error fetching Biography: simplexml_load_file(https://english.khamenei.ir/rss?tp=8): Failed to open stream: Connection timed out  
+[2025-09-10 11:59:45] local.ERROR: Error fetching Bookshelf: simplexml_load_file(https://english.khamenei.ir/rss?tp=27): Failed to open stream: Connection timed out  
+[2025-09-10 12:00:46] local.ERROR: Error fetching Dossier: simplexml_load_file(https://english.khamenei.ir/rss?tp=18): Failed to open stream: Connection timed out  
+[2025-09-10 12:01:47] local.ERROR: Error fetching Flashbacks: simplexml_load_file(https://english.khamenei.ir/rss?tp=20): Failed to open stream: Connection timed out  
+[2025-09-10 12:02:48] local.ERROR: Error fetching Infographics: simplexml_load_file(https://english.khamenei.ir/rss?tp=71): Failed to open stream: Connection timed out  
+[2025-09-10 12:03:49] local.ERROR: Error fetching Interview: simplexml_load_file(https://english.khamenei.ir/rss?tp=28): Failed to open stream: Connection timed out  
+[2025-09-10 12:04:50] local.ERROR: Error fetching Leader's Opinions: simplexml_load_file(https://english.khamenei.ir/rss?tp=24): Failed to open stream: Connection timed out  
+[2025-09-10 12:05:51] local.ERROR: Error fetching Messages and Letters: simplexml_load_file(https://english.khamenei.ir/rss?tp=3): Failed to open stream: Connection timed out  
+[2025-09-10 12:06:51] local.ERROR: Error fetching Motion Graphics: simplexml_load_file(https://english.khamenei.ir/rss?tp=14): Failed to open stream: Connection timed out  
+[2025-09-10 12:07:52] local.ERROR: Error fetching general: simplexml_load_file(https://english.khamenei.ir/rss?tp=1): Failed to open stream: Connection timed out  
+[2025-09-10 12:08:53] local.ERROR: Error fetching Photos: simplexml_load_file(https://english.khamenei.ir/rss?tp=9): Failed to open stream: Connection timed out  
+[2025-09-10 12:09:54] local.ERROR: Error fetching Posters: simplexml_load_file(https://english.khamenei.ir/rss?tp=13): Failed to open stream: Connection timed out  
+[2025-09-10 12:10:55] local.ERROR: Error fetching Reports: simplexml_load_file(https://english.khamenei.ir/rss?tp=17): Failed to open stream: Connection timed out  
