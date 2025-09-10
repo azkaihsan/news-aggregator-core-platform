@@ -19,8 +19,8 @@ class CreateNewsTable extends Migration
             $table->integer('source_id');
             $table->integer('category_id');
             $table->integer('country_id');
-            $table->string('title');
-            $table->string('author')->nullable();
+            $table->text('title');
+            $table->text('author')->nullable();
             $table->text('description')->nullable();
             $table->text('url')->nullable();
             $table->text('urltoimage')->nullable();

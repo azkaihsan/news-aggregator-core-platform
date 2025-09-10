@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "phpstan/phpstan": "1.12.15",
+        "phpstan/phpstan-strict-rules": "1.6.1"
+    }
+}

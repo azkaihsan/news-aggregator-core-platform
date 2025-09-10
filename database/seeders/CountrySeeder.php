@@ -14,7 +14,7 @@ class CountrySeeder extends Seeder
      */
     public function run()
     {
-		$path = 'countries.sql';
+		$path = 'database/seeders/countries.sql';
         $sql = file_get_contents($path);
         DB::unprepared($sql);
     }

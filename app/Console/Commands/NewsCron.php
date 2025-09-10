@@ -8,6 +8,8 @@ use App\NewsCategory;
 use App\NewsSource;
 use GuzzleHttp\Client as GuzzleClient;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Log;  // Critical addition
+use Carbon\Carbon;                   // Also ensure Carbon is imported
 
 class NewsCron extends Command
 {
@@ -16,7 +18,7 @@ class NewsCron extends Command
      *
      * @var string
      */
-    protected $signature = 'etl:news';
+    protected $signature = 'etl:newsapi';
 
     /**
      * The console command description.
@@ -42,28 +44,99 @@ class NewsCron extends Command
      */
     public function handle()
     {
-        $key = '135664285ec84c2cbb2d50f7d93a1942'; // Sesuaikan Kunci API yang dipakai
+        //API dari NewsAPI
+        $key = '5e31c6e2c2b04761994d458ac62e82bc'; // Sesuaikan Kunci API yang dipakai
         $headers = [
             'X-Api-Key' => $key
         ];
-        $category_id = 1; // Sesuaikan kategori berita
-        $country_id = 19; // Sesuaikan negara asal berita terbit        
         $client = new GuzzleClient([
             'headers' => $headers
-        ]);
-        $country = Country::find($country_id);       
-        $newscategory = NewsCategory::find($category_id); 
-        $request = $client->get('https://newsapi.org/v2/top-headlines?pageSize=100&country='.$country->code.'&category='.$newscategory->name);
-        $response = $request->getBody()->getContents();
-        $data = json_decode($response, true);
-        foreach ($data['articles'] as $key) {
-            $newssource = NewsSource::where('name', $key['source']['name'])->first();
-            if (!$newssource) {
-                $newssource = new NewsSource;
-                $newssource->name           = $key['source']['name'];
-                $newssource->save();
+        ]);        
+        $countries = Country::whereIn('code', ['US', 'GB', 'ID', 'AU', 'CN', 'IR', 'IQ', 'JP', 'KR', 'RU', 'SA', 'SG', 'TR', 'MY'])->get();
+        $newscategories = NewsCategory::whereIn('name', ['business', 'technology'])->get();
+        
+        $results = []; // Array to store results for each country/category combination
+
+        foreach ($countries as $country) {
+            foreach ($newscategories as $newscategory) {
+                $createdCount = 0;
+                $updatedCount = 0;
+                $status = 'success'; // Assume success initially
+        
+                try {
+                    sleep(1);
+        
+                    $response = $client->get('https://newsapi.org/v2/top-headlines', [
+                        'query' => [
+                            'pageSize' => 100,
+                            'country' => $country->code,
+                            'category' => $newscategory->name,
+                            'apiKey' => $key,
+                        ],
+                    ]);
+        
+                    $data = json_decode($response->getBody(), true);
+        
+                    if (!isset($data['articles']) || $data['status'] !== 'ok') {
+                        $status = 'error';
+                        Log::error("NewsAPI Error for {$country->code}/{$newscategory->name}", $data);
+                    } else {
+                        foreach ($data['articles'] as $article) {
+                            if (empty($article['title']) || empty($article['url'])) {
+                                continue;
+                            }
+        
+                            $newssource = NewsSource::firstOrCreate(
+                                ['name' => $article['source']['name']],
+                                ['name' => $article['source']['name']]
+                            );
+        
+                            $published_at = Carbon::parse($article['publishedAt'])
+                                ->setTimezone('Asia/Jakarta');
+        
+                            $news = News::updateOrCreate(
+                                [
+                                    'url' => $article['url'],
+                                    'published_at' => $published_at,
+                                ],
+                                [
+                                    'category_id' => $newscategory->id,
+                                    'country_id' => $country->id,
+                                    'source_id' => $newssource->id,
+                                    'title' => $article['title'],
+                                    'author' => $article['author'] ?? 'Unknown',
+                                    'description' => $article['description'] ?? '',
+                                    'urltoimage' => $article['urlToImage'] ?? null,
+                                    'content' => $article['content'] ?? '',
+                                    'published_at' => $published_at,
+                                ]
+                            );
+        
+                            if ($news->wasRecentlyCreated) {
+                                $createdCount++;
+                            } else {
+                                $updatedCount++;
+                            }
+                        }
+                    }
+        
+        
+                } catch (\Exception $e) {
+                    $status = 'error';
+                    Log::error("News fetching failed for {$country->code}/{$newscategory->name}: " . $e->getMessage());
+                }
+        
+                $results[] = [
+                    'country' => $country->code,
+                    'category' => $newscategory->name,
+                    'created' => $createdCount,
+                    'updated' => $updatedCount,
+                    'status' => $status,
+                ];
             }
-            $news = News::firstOrCreate(['category_id' => $category_id, 'country_id' => $country_id, 'source_id' => $newssource->id, 'title' => $key['title'], 'author' => $key['author'], 'description' => $key['description'], 'url' => $key['url'], 'urltoimage' => $key['urlToImage'], 'content' => $key['content'], 'published_at' => date('Y-m-d H:i:s', strtotime($key['publishedAt']))]);
         }
+        
+        // Output the results as JSON
+        echo json_encode($results);
     }
 }

@@ -36,6 +36,7 @@ $router->group(['prefix' => 'category'], function () use ($router) {
 //News Source
 $router->group(['prefix' => 'source'], function () use ($router) {
 	$router->get('/search',				'NewsSourceController@search');
+	$router->post('/',					'FetchDataController@fetchNewsSourceFromNewsAPI');
 	$router->get('/',					'NewsSourceController@index');
 	$router->get('{id}', 				'NewsSourceController@show');
 });
@@ -51,4 +52,9 @@ $router->group(['prefix' => 'news'], function () use ($router) {
 	$router->get('{id}/category', 		'NewsDashboardController@getByCategory');
 	$router->get('{id}/country', 		'NewsDashboardController@getByCountry');
 	$router->get('{id}/source', 		'NewsDashboardController@getBySource');
+});
+
+//Telegram
+$router->group(['prefix' => 'telegram'], function () use ($router) {
+	$router->post('/',					'NewsTelegramController@store');
 });

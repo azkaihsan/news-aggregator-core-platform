@@ -12,7 +12,11 @@ class NewsDashboardController extends Controller
 {
 	// Get all News Source data
 	public function index (Request $req) {
-		$data = News::select('id', 'title', 'urltoimage', 'published_at')->orderBy('published_at', 'desc')->get();
+	    if($req->input('take')) {
+	        $data = News::orderBy('published_at', 'desc')->take($req->take)->get();
+	    } else {
+            $data = News::orderBy('published_at', 'desc')->take(100)->get();	        
+	    }
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,
@@ -38,7 +42,7 @@ class NewsDashboardController extends Controller
 	}
 
 	public function getByCountry ($id, Request $req) {
-		$data = News::select('id', 'title', 'urltoimage', 'published_at')->where('country_id', $id)->orderBy('published_at', 'desc')->get();
+		$data = News::select('id', 'title', 'description', 'url', 'urltoimage', 'published_at')->where('country_id', $id)->orderBy('published_at', 'desc')->get();
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,
@@ -47,7 +51,7 @@ class NewsDashboardController extends Controller
 	}
 
 	public function getByCategory ($id, Request $req) {
-		$data = News::select('id', 'title', 'urltoimage', 'published_at')->where('category_id', $id)->orderBy('published_at', 'desc')->get();
+		$data = News::select('id', 'title', 'description', 'url', 'urltoimage', 'published_at')->where('category_id', $id)->orderBy('published_at', 'desc')->get();
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,
@@ -56,7 +60,7 @@ class NewsDashboardController extends Controller
 	}
 
 	public function getBySource ($id, Request $req) {
-		$data = News::select('id', 'title', 'urltoimage', 'published_at')->where('source_id', $id)->orderBy('published_at', 'desc')->get();
+		$data = News::select('id', 'title', 'description', 'url', 'urltoimage', 'published_at')->where('source_id', $id)->orderBy('published_at', 'desc')->get();
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,

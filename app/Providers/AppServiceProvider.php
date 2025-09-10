@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Doctrine\DBAL\Types\Type;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,5 +15,13 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+
+    public function boot()
+    {
+        // Register char type if not registered
+        if (!Type::hasType('char')) {
+            Type::addType('char', \Doctrine\DBAL\Types\StringType::class);
+        }
     }
 }
