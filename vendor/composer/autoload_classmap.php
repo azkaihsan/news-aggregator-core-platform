@@ -499,6 +499,7 @@ return array(
     'App\\Http\\Controllers\\NewsSourceController' => $baseDir . '/app/Http/Controllers/NewsSourceController.php',
     'App\\Http\\Controllers\\NewsTelegramController' => $baseDir . '/app/Http/Controllers/NewsTelegramController.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
+    'App\\Http\\Middleware\\CorsMiddleware' => $baseDir . '/app/Http/Middleware/CorsMiddleware.php',
     'App\\Http\\Middleware\\ExampleMiddleware' => $baseDir . '/app/Http/Middleware/ExampleMiddleware.php',
     'App\\Jobs\\ExampleJob' => $baseDir . '/app/Jobs/ExampleJob.php',
     'App\\Jobs\\Job' => $baseDir . '/app/Jobs/Job.php',

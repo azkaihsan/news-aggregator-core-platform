@@ -13,9 +13,9 @@ class NewsDashboardController extends Controller
 	// Get all News Source data
 	public function index (Request $req) {
 	    if($req->input('take')) {
-	        $data = News::orderBy('published_at', 'desc')->take($req->take)->get();
+	        $data = News::with('newssource')->orderBy('published_at', 'desc')->take($req->take)->get();
 	    } else {
-            $data = News::orderBy('published_at', 'desc')->take(100)->get();	        
+            $data = News::with('newssource')->orderBy('published_at', 'desc')->take(100)->get();	        
 	    }
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
@@ -42,7 +42,12 @@ class NewsDashboardController extends Controller
 	}
 
 	public function getByCountry ($id, Request $req) {
-		$data = News::select('id', 'title', 'description', 'url', 'urltoimage', 'published_at')->where('country_id', $id)->orderBy('published_at', 'desc')->get();
+	    if($req->input('take')) {
+	        $data = News::with('newssource')->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')->where('country_id', $id)->orderBy('published_at', 'desc')->take($req->take)->get();
+	    } else {
+            $data = News::with('newssource')->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')->where('country_id', $id)->orderBy('published_at', 'desc')->get();	        
+	    }
+		
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,
@@ -51,7 +56,12 @@ class NewsDashboardController extends Controller
 	}
 
 	public function getByCategory ($id, Request $req) {
-		$data = News::select('id', 'title', 'description', 'url', 'urltoimage', 'published_at')->where('category_id', $id)->orderBy('published_at', 'desc')->get();
+	    if($req->input('take')) {
+	        $data = News::with('newssource')->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')->where('category_id', $id)->orderBy('published_at', 'desc')->take($req->take)->get();
+	    } else {
+            $data = News::with('newssource')->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')->where('category_id', $id)->orderBy('published_at', 'desc')->get();        
+	    }
+		
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,
@@ -60,7 +70,11 @@ class NewsDashboardController extends Controller
 	}
 
 	public function getBySource ($id, Request $req) {
-		$data = News::select('id', 'title', 'description', 'url', 'urltoimage', 'published_at')->where('source_id', $id)->orderBy('published_at', 'desc')->get();
+	    if($req->input('take')) {
+	        $data = News::with('newssource')->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')->where('source_id', $id)->orderBy('published_at', 'desc')->take($req->take)->get();
+	    } else {
+            $data = News::with('newssource')->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')->where('source_id', $id)->orderBy('published_at', 'desc')->get();      
+	    }
 		return response()->json([
 			'message'	=> 'Fetch news data success.',
 			'data'		=> $data,
@@ -69,7 +83,14 @@ class NewsDashboardController extends Controller
 	}
 
 	public function search (Request $req) {
-		$data = News::whereRaw('lower(author) LIKE ?', '%'.strtolower($req->input('keyword')).'%')->orwhereRaw('lower(title) LIKE ?', '%'.strtolower($req->input('keyword')).'%')->orwhereRaw('lower(description) LIKE ?', '%'.strtolower($req->input('keyword')).'%')->orwhereRaw('lower(content) LIKE ?', '%'.strtolower($req->input('keyword')).'%')->orderBy('published_at', 'desc')->select('id', 'title', 'author', 'description', 'urltoimage', 'content', 'published_at')->get();
+        $keyword = $req->input('keyword');
+        $take = $req->input('take', 1000);
+    
+        $data = News::with('newssource')
+            ->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')
+            ->whereRaw("searchable @@ plainto_tsquery('english', ?)", [$keyword])
+            ->orderBy('published_at', 'desc')
+            ->paginate(30);
 		if ($data) {
 			return response()->json([
 				'message'	=> 'Get news data success.',
@@ -85,7 +106,15 @@ class NewsDashboardController extends Controller
 		}		
 	}
 	public function searchTitleOnly (Request $req) {
-		$data = News::whereRaw('lower(title) LIKE ?', '%'.strtolower($req->input('keyword')).'%')->orderBy('published_at', 'desc')->select('id', 'title', 'urltoimage', 'published_at')->get();
+        $keyword = $req->input('keyword');
+        $take = $req->input('take', 1000);
+    
+        $data = News::with('newssource')
+            ->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')
+            ->whereRaw("searchable @@ plainto_tsquery('english', ?)", [$keyword])
+            ->orderBy('published_at', 'desc')
+            ->paginate(30);
+		
 		if ($data) {
 			return response()->json([
 				'message'	=> 'Get news data success.',

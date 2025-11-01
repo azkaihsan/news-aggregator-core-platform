@@ -470,9 +470,9 @@ class ComposerStaticInit41839248c562c114bd2fa8df409d2eeb
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/collections',
-            1 => __DIR__ . '/..' . '/illuminate/macroable',
-            2 => __DIR__ . '/..' . '/illuminate/support',
+            0 => __DIR__ . '/..' . '/illuminate/support',
+            1 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
         ),
         'Illuminate\\Session\\' => 
         array (
@@ -724,8 +724,8 @@ class ComposerStaticInit41839248c562c114bd2fa8df409d2eeb
         ),
         'Amp\\Http\\' => 
         array (
-            0 => __DIR__ . '/..' . '/amphp/hpack/src',
-            1 => __DIR__ . '/..' . '/amphp/http/src',
+            0 => __DIR__ . '/..' . '/amphp/http/src',
+            1 => __DIR__ . '/..' . '/amphp/hpack/src',
         ),
         'Amp\\File\\' => 
         array (
@@ -758,8 +758,8 @@ class ComposerStaticInit41839248c562c114bd2fa8df409d2eeb
         array (
             'danog\\' => 
             array (
-                0 => __DIR__ . '/..' . '/danog/magicalserializer/src',
-                1 => __DIR__ . '/..' . '/danog/primemodule/lib',
+                0 => __DIR__ . '/..' . '/danog/primemodule/lib',
+                1 => __DIR__ . '/..' . '/danog/magicalserializer/src',
             ),
         ),
         'c' => 
@@ -1272,6 +1272,7 @@ class ComposerStaticInit41839248c562c114bd2fa8df409d2eeb
         'App\\Http\\Controllers\\NewsSourceController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewsSourceController.php',
         'App\\Http\\Controllers\\NewsTelegramController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewsTelegramController.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
+        'App\\Http\\Middleware\\CorsMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/CorsMiddleware.php',
         'App\\Http\\Middleware\\ExampleMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/ExampleMiddleware.php',
         'App\\Jobs\\ExampleJob' => __DIR__ . '/../..' . '/app/Jobs/ExampleJob.php',
         'App\\Jobs\\Job' => __DIR__ . '/../..' . '/app/Jobs/Job.php',

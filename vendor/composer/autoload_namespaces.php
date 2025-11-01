@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'danog\\' => array($vendorDir . '/danog/magicalserializer/src', $vendorDir . '/danog/primemodule/lib'),
+    'danog\\' => array($vendorDir . '/danog/primemodule/lib', $vendorDir . '/danog/magicalserializer/src'),
     'cash' => array($vendorDir . '/cash/lrucache/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
 );
