@@ -7,6 +7,7 @@ use App\News;
 use App\NewsCategory;
 use App\NewsSource;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 
 class NewsDashboardController extends Controller
 {
@@ -84,13 +85,14 @@ class NewsDashboardController extends Controller
 
 	public function search (Request $req) {
         $keyword = $req->input('keyword');
-        $take = $req->input('take', 1000);
+        $take = $req->input('take', 500);
     
         $data = News::with('newssource')
             ->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')
+            ->where('published_at', '>', Carbon::now()->subMonths(6))
             ->whereRaw("searchable @@ plainto_tsquery('english', ?)", [$keyword])
             ->orderBy('published_at', 'desc')
-            ->paginate(30);
+            ->simplePaginate(30);
 		if ($data) {
 			return response()->json([
 				'message'	=> 'Get news data success.',
@@ -107,13 +109,14 @@ class NewsDashboardController extends Controller
 	}
 	public function searchTitleOnly (Request $req) {
         $keyword = $req->input('keyword');
-        $take = $req->input('take', 1000);
+        $take = $req->input('take', 500);
     
         $data = News::with('newssource')
             ->select('id', 'source_id', 'title', 'description', 'url', 'urltoimage', 'published_at', 'author')
+            ->where('published_at', '>', Carbon::now()->subMonths(6))
             ->whereRaw("searchable @@ plainto_tsquery('english', ?)", [$keyword])
             ->orderBy('published_at', 'desc')
-            ->paginate(30);
+            ->simplePaginate(30);
 		
 		if ($data) {
 			return response()->json([
